@@ -21,7 +21,7 @@ Launch Jupyter (or VS Code) and select the **Python (causal_env)** kernel:
 jupyter notebook
 ```
 
-### 4. Run examples
+### 4. Run notebook examples
 #### 4.1. PC on ASIA
 File 01_pc_asia.ipynb
 #### 4.2. PC and SHD on ALARM
