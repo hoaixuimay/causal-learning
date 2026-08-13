@@ -1,0 +1,12 @@
+|   Pair | Var_X     | Var_Y                                                | Ground_Truth   | Original   | Neutral(A/B)    | Paraphrased   | Flip?(Original ~ Neutral)   | Flip?(Original ~ Paraphrased)   |
+|-------:|:----------|:-----------------------------------------------------|:---------------|:-----------|:----------------|:--------------|:----------------------------|:--------------------------------|
+|   0001 | altitude  | temperature (average over 1961-1990)                 | X -> Y         | X -> Y     | X -> Y          | Y -> X        | False                       | True                            |
+|   0002 | altitude  | precipitation (yearly value averaged over 1961-1990) | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
+|   0003 | longitude | temperature (averaged over 1961-1990)                | X -> Y         | Y -> X     | X -> Y          | Y -> X        | True                        | False                           |
+|   0004 | altitude  | sunshine (yearly value averaged over 1961-1990)      | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
+|   0005 | Rings     | Length                                               | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
+|   0006 | Rings     | Shell weight                                         | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
+|   0007 | Rings     | Diameter                                             | X -> Y         | Y -> X     | X -> Y          | Y -> X        | True                        | False                           |
+|   0008 | Rings     | Height                                               | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
+|   0009 | Rings     | Whole weight                                         | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
+|   0010 | Rings     | Shucked weight                                       | X -> Y         | X -> Y     | X -> Y          | X -> Y        | False                       | False                           |
